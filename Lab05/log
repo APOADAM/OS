@@ -1,0 +1,54 @@
+/home/aposadam/Lab05
+log
+stat: cannot stat 'filename': No such file or directory
+  File: new_folder
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 811h/2065d	Inode: 410607      Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1208/aposadam)   Gid: ( 1210/aposadam)
+Access: 2024-12-19 12:57:06.133602521 +0200
+Modify: 2024-12-19 12:56:43.621366593 +0200
+Change: 2024-12-19 12:56:43.621366593 +0200
+ Birth: -
+cp: cannot stat 'source.txt': No such file or directory
+mv: cannot stat 'oldname.txt': No such file or directory
+rm: cannot remove 'file_to_delete.txt': No such file or directory
+rmdir: failed to remove 'empty_directory': No such file or directory
+rm: cannot remove 'directory_to_delete': No such file or directory
+rm: cannot remove 'empty_directory': No such file or directory
+cat: file.txt: No such file or directory
+file.txt: No such file or directory
+head: cannot open 'file.txt' for reading: No such file or directory
+tail: cannot open 'file.txt' for reading: No such file or directory
+tar: Removing leading `/' from member names
+/home/aposadam/Lab05/
+/home/aposadam/Lab05/new_folder/
+tar: /home/aposadam/Lab05/archive.tar: file is the archive; not dumped
+/home/aposadam/Lab05/log
+tar: /home/aposadam/Lab05/log: file changed as we read it
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+tar (child): archive.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+tar: Removing leading `/' from member names
+/home/aposadam/Lab05/
+/home/aposadam/Lab05/empty_directory/
+/home/aposadam/Lab05/file_to_delete.txt
+/home/aposadam/Lab05/new_folder/
+/home/aposadam/Lab05/source.txt
+/home/aposadam/Lab05/oldname.txt
+/home/aposadam/Lab05/file.txt
+tar: /home/aposadam/Lab05/archive.tar: file is the archive; not dumped
+/home/aposadam/Lab05/log
+tar: Removing leading `/' from member names
+/home/aposadam/Lab05/
+/home/aposadam/Lab05/empty_directory/
+/home/aposadam/Lab05/file_to_delete.txt
+/home/aposadam/Lab05/new_folder/
+/home/aposadam/Lab05/source.txt
+/home/aposadam/Lab05/oldname.txt
+/home/aposadam/Lab05/file.txt
+/home/aposadam/Lab05/archive.tar
+tar: /home/aposadam/Lab05/archive.tar.gz: file is the archive; not dumped
+/home/aposadam/Lab05/log
